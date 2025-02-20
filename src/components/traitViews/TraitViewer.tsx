@@ -2,14 +2,14 @@ import { useState } from "react";
 
 function TraitViewer() {
 
-    let [filters, setFilters] = useState(); //determines what TraitSummary components are populated into the recyclerView
-    let [selectedTrait, setSelectedTrait] = useState(); //determines what TraitDetails component is populated into the main div
+    const [filters, setFilters] = useState(); //determines what TraitSummary components are populated into the recyclerView
+    const [selectedTrait, setSelectedTrait] = useState(); //determines what TraitDetails component is populated into the main div
 
 
     return (
         <div>
             <div className="trait-filters">
-                    {/*TODO: define a TraitFilters component*/}
+                {/*TODO: define a TraitFilters component*/}
             </div>
             <div>
                 <div className="trait-recycler-view">

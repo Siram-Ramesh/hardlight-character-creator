@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function CharacterViewerIndex() {
 
-    let [characters, setCharacters] = useState();
+    const [characters, setCharacters] = useState();
 
     return(
         <div>
