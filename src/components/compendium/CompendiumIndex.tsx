@@ -4,6 +4,9 @@ function CompendiumIndex() {
 
     return (
         <div>
+            <button className = "search-all-traits-link">
+                <Link to="traits">Search Through All Traits</Link>
+            </button>
             <button className = "compendium-category">
                 <Link to="talents">Talents</Link>
             </button>
