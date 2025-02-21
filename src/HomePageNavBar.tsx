@@ -3,13 +3,17 @@ import { Link } from "react-router"
 function HomePageNavBar() {
 
   return (
-    <nav className = "HomePageNavBar">
-        <hgroup className = "TitleName">
-            <h3>HARDLIGHT CHARACTER CREATOR</h3>
-            <h6>Subtext</h6>
+    <nav className = "flex top-0 relative mx-auto min-w-full px-12 sm:px-6 lg:px-8 bg-violet-950 justify-start">
+        <hgroup className = "px-12 lg:px-8 sm:px-6">
+            <h1>HARDLIGHT</h1>
+            <h4>Character Creator</h4>
         </hgroup>
-        <Link to="/compendium">Compendium</Link>
-        <Link to="/characters">Characters</Link>
+        <div className="px-12 lg:px-8 sm:px-6 hover:bg-violet-900 place-content-center">
+            <Link to="/compendium">Compendium</Link>
+        </div>
+        <div className="px-12 lg:px-8 sm:px-6 hover:bg-violet-900 place-content-center">
+            <Link to="/characters">Characters</Link>
+        </div>   
     </nav>
   )
 }
